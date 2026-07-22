@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="assets/banner.png" alt="IntelliPlant Banner" width="100%">
-</p>
+</p> -->
 
 <h1 align="center">IntelliPlant</h1>
 
