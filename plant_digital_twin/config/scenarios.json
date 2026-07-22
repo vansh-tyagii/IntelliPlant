@@ -1,0 +1,9 @@
+{
+  "normal-operation": {"name": "Normal Operation", "updates": [{"zone_id": "machine-hall", "source": "scenario", "payload": {"risk_level": "normal", "recommendation": "Continue routine monitoring."}}]},
+  "machine-failure": {"name": "Machine Failure", "updates": [{"zone_id": "machine-hall", "source": "ai4i", "payload": {"machine_status": "failure_detected", "risk_level": "warning", "recommendation": "Isolate the affected machine and inspect it."}}]},
+  "scada-attack": {"name": "SCADA Attack", "updates": [{"zone_id": "control-room", "source": "swat", "payload": {"swat_status": "anomaly_detected", "risk_level": "warning", "recommendation": "Validate control-system readings and activate cyber response."}}]},
+  "ppe-violation": {"name": "PPE Violation", "updates": [{"zone_id": "assembly-line", "source": "ppe", "payload": {"ppe_status": "violation_detected", "risk_level": "warning", "recommendation": "Stop work until required PPE is restored."}}]},
+  "permit-conflict": {"name": "Permit Conflict", "updates": [{"zone_id": "maintenance", "source": "operational_context", "payload": {"risk_level": "warning", "recommendation": "Resolve the permit conflict before work continues."}}]},
+  "combined-risk": {"name": "Combined Risk", "updates": [{"zone_id": "machine-hall", "source": "fusion", "payload": {"fusion_status": "warning", "risk_level": "warning", "recommendation": "Coordinate maintenance and safety controls."}}]},
+  "critical-emergency": {"name": "Critical Emergency", "updates": [{"zone_id": "machine-hall", "source": "fusion", "payload": {"fusion_status": "critical", "risk_level": "critical", "recommendation": "Initiate emergency response and evacuate affected personnel."}}]}
+}

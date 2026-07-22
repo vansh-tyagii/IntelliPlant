@@ -1,0 +1,8 @@
+mode: demo
+fusion:
+  model_path: module45/engines/fusion_model.cbm
+  safe_max_probability: 0.30
+  warning_max_probability: 0.65
+demo:
+  ppe_source: PPE/vedio1.mp4
+  swat_replay_path: null

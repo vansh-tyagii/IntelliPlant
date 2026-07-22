@@ -1,0 +1,22 @@
+{
+  "background_image": "/assets/industry_image/industry_top.jpg",
+  "canvas": {"width": 1440, "height": 810},
+  "risk_colors": {"normal": "#22c55e", "warning": "#f59e0b", "critical": "#ef4444", "unknown": "#64748b"},
+  "zone_layout": {
+    "boiler-room": {"x": 120, "y": 115, "width": 180, "height": 120, "icon": "flame"},
+    "machine-hall": {"x": 365, "y": 105, "width": 295, "height": 180, "icon": "settings"},
+    "control-room": {"x": 735, "y": 100, "width": 190, "height": 130, "icon": "monitor"},
+    "assembly-line": {"x": 345, "y": 360, "width": 355, "height": 130, "icon": "factory"},
+    "warehouse": {"x": 790, "y": 335, "width": 240, "height": 155, "icon": "warehouse"},
+    "maintenance": {"x": 1090, "y": 115, "width": 205, "height": 125, "icon": "wrench"},
+    "packing": {"x": 1045, "y": 360, "width": 190, "height": 130, "icon": "package"},
+    "chemical-storage": {"x": 95, "y": 380, "width": 185, "height": 135, "icon": "flask"},
+    "loading-bay": {"x": 695, "y": 570, "width": 255, "height": 125, "icon": "truck"},
+    "utility-area": {"x": 1050, "y": 570, "width": 190, "height": 125, "icon": "zap"}
+  },
+  "recommendation_templates": {
+    "normal": {"immediate_action": "Continue routine monitoring.", "emergency_action": "No emergency action required."},
+    "warning": {"immediate_action": "Notify the shift supervisor and verify controls.", "emergency_action": "Prepare a controlled work stop if conditions worsen."},
+    "critical": {"immediate_action": "Stop affected work and isolate the hazard.", "emergency_action": "Activate the site emergency response procedure."}
+  }
+}

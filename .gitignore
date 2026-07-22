@@ -1,0 +1,164 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+.venv311/
+venv/
+env/
+ENV/
+.env/
+*.egg-info/
+.eggs/
+build/
+# dist/
+site-packages/
+
+.cache/
+tmp/
+temp/
+
+__pypackages__/
+
+*.zip
+*.7z
+*.rar
+
+coverage/
+
+backend/logs/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/coverage/
+.vite/
+
+# ==========================
+# Node / React / Vite
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Runtime Files
+# ==========================
+*.pid
+*.seed
+*.out
+*.err
+
+# ==========================
+# ML Training Artifacts
+# (Ignore only if reproducible)
+# ==========================
+wandb/
+mlruns/
+tensorboard/
+runs/
+events.out.tfevents*
+
+# ==========================
+# Generated Reports
+# ==========================
+reports/
+exports/
+
+# ==========================
+# Git
+# ==========================
+*.orig
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Logs and temporary files
+logs/
+*.log
+*.pid
+*.out
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local runtime data and uploads
+runtime_uploads/
+uploads/
+
+# Large model / ML artifact files
+# *.pt
+# *.pth
+# *.onnx
+# *.bin
+# *.h5
+# *.keras
+# *.pb
+# *.tflite
+# *.joblib
+# *.pkl
+# *.pickle
+# *.model
+# *.cbm
+# *.faiss
+# *.index
+
+# Databases
+*.sqlite3
+*.db
+
+
+.ipynb
+iframe_figures/
+industry_image/
+ai41_2_predictive-maintenance-milling-multiclass-99-4.ipynb
+anomaly-detection-for-industrial-control-systems.ipynb
+
+PPE/incidents
+*.mp4
+final_api/tests
+# backend/core/data/incidents
+backend/patched_frozen_files
+backend/data/incidents

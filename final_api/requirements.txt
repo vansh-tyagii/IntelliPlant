@@ -1,0 +1,4 @@
+-r ../requirements-platform.txt
+-r ../backend/requirements-backend.txt
+ultralytics>=8.3
+opencv-python>=4.10

@@ -1,0 +1,16 @@
+{
+  "plant_id": "etai-industrial-plant",
+  "plant_name": "ETAI Industrial Safety Plant",
+  "zones": [
+    {"zone_id": "boiler-room", "zone_name": "Boiler Room", "metadata": {"floor": "ground", "area_type": "process"}},
+    {"zone_id": "machine-hall", "zone_name": "Machine Hall", "metadata": {"floor": "ground", "area_type": "production"}},
+    {"zone_id": "control-room", "zone_name": "Control Room", "metadata": {"floor": "first", "area_type": "operations"}},
+    {"zone_id": "assembly-line", "zone_name": "Assembly Line", "metadata": {"floor": "ground", "area_type": "production"}},
+    {"zone_id": "warehouse", "zone_name": "Warehouse", "metadata": {"floor": "ground", "area_type": "storage"}},
+    {"zone_id": "maintenance", "zone_name": "Maintenance", "metadata": {"floor": "ground", "area_type": "support"}},
+    {"zone_id": "packing", "zone_name": "Packing", "metadata": {"floor": "ground", "area_type": "production"}},
+    {"zone_id": "chemical-storage", "zone_name": "Chemical Storage", "metadata": {"floor": "ground", "area_type": "hazardous-storage"}},
+    {"zone_id": "loading-bay", "zone_name": "Loading Bay", "metadata": {"floor": "ground", "area_type": "logistics"}},
+    {"zone_id": "utility-area", "zone_name": "Utility Area", "metadata": {"floor": "ground", "area_type": "utilities"}}
+  ]
+}
